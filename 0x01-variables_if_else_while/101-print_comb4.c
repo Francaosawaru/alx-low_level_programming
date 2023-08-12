@@ -2,7 +2,7 @@
 
 /**
 * main - a program that prints all possible different combinations
-* Return
+* Return: always 0
 */
 
 int main(void)
