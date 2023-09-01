@@ -3,5 +3,6 @@
 
 int _putchar(char c);
 int _atoi(har *s);
+int main(int argc, char *argv[]);
 
 #endif
