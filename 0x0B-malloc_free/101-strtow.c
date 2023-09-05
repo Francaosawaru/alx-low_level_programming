@@ -1,8 +1,9 @@
 #include "main.h"
-#include <stdio.h>
 #include <stdlib.h>
+
 void util(char **, char *);
 void create_word(char **, char *, int, int, int);
+
 /**
  * strtow - splits a string into words.
  * @str: the sring
@@ -79,6 +80,6 @@ int i, j;
 i = end - start;
 words[index] = (char *)malloc(sizeof(char) * (i + 1));
 for (j = 0; start < end; start++, j++)
-	words[index][i] = str[start];
+	words[index][j] = str[start];
 words[index][j] = '\0';
 }
