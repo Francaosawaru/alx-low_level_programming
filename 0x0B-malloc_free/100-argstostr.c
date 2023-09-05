@@ -33,7 +33,7 @@ str[j] = s[k];
 k++;
 j++;
 }
-str[j++] = '\0';
+str[j++] = '\n';
 }
 str[j] = '\0';
 return (str);
