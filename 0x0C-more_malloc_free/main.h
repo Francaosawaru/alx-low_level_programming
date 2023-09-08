@@ -4,11 +4,6 @@
 #include <stdlib.h>
 #include <string.h>
 #include <limits.h>
-/**
- * File : main
- *
- * Desc: header file
- */
 void *malloc_checked(unsigned int b);
 char *string_nconcat(char *s1, char *s2, unsigned int n);
 void *_calloc(unsigned int nmemb, unsigned int size);
@@ -18,4 +13,5 @@ int _putchar(char c);
 int is_digit(char *s);
 void errors(void);
 int _strlen(char *s);
+int main(int argc, char *argv[]);
 #endif
