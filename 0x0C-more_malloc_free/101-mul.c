@@ -2,7 +2,7 @@
 #include <ctype.h>
 #include <stdio.h>
 #include <stdlib.h>
-
+#define ERR_MSG "Error"
 /**
  * _is_zero - determines if any number is zero
  * @argv: argument vector.
